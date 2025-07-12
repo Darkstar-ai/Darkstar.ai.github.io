@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Darkstar: End-to-end AI, ML, Data Engineering & Cloud Solutions" />
+  <title>Darkstar</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Fallback font for accessibility -->
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-relaxed">
+  <!-- Navigation -->
+  <nav class="container mx-auto flex items-center justify-between py-5">
+    <a href="#" class="text-2xl font-bold" aria-label="Darkstar Home">Darkstar</a>
+    <ul class="flex space-x-6">
+      <li><a href="#about" class="hover:underline">About</a></li>
+      <li><a href="#expertise" class="hover:underline">Expertise</a></li>
+      <li><a href="#contact" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="flex flex-col items-center text-center py-20 px-4">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Pioneering AI & Data Innovation</h1>
+    <p class="text-lg md:text-xl max-w-2xl mb-8">
+      Empowering businesses with end-to-end strategy, design, development, and seamless integration of cutting-edge intelligence systems.
+    </p>
+    <a href="#contact" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition" role="button">
+      Get Started
+    </a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-800 py-16 px-4">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-4xl font-bold mb-4">About Us</h2>
+      <p class="text-lg">
+        At Darkstar, we fuse deep industry insight with advanced technology to transform how organizations leverage data and AI. From initial strategy to ongoing maintenance, our elite team delivers tailor-made solutions that drive measurable impact and sustained growth.
+      </p>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="py-16 px-4">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-4xl font-bold text-center mb-12">Our Expertise</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- AI & ML -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold mb-2">AI & Machine Learning</h3>
+          <p>Crafting bespoke AI roadmaps—from model selection to deployment—to unlock new revenue streams and optimize decision-making.</p>
+        </div>
+        <!-- Data Engineering -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold mb-2">Data Engineering</h3>
+          <p>Architecting robust data pipelines and scalable analytics platforms that turn raw information into actionable business intelligence.</p>
+        </div>
+        <!-- Cloud Architecture -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold mb-2">Cloud Architecture</h3>
+          <p>Designing secure, high-performance cloud infrastructures and delivering continuous integration, monitoring, and support.</p>
+        </div>
+        <!-- Integration & Maintenance -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold mb-2">Integration & Maintenance</h3>
+          <p>Ensuring seamless interoperability across systems, with proactive maintenance and dedicated support for unmatched reliability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-800 py-16 px-4">
+    <div class="container mx-auto max-w-md">
+      <h2 class="text-4xl font-bold text-center mb-6">Get in Touch</h2>
+      <form action="mailto:info@darkstar.com" method="post" enctype="text/plain" class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium">Name</label>
+          <input type="text" id="name" name="name" required class="w-full mt-1 p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:border-blue-500" />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium">Email</label>
+          <input type="email" id="email" name="email" required class="w-full mt-1 p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:border-blue-500" />
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium">Message</label>
+          <textarea id="message" name="message" rows="4" required class="w-full mt-1 p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:border-blue-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-sm">
+    &copy; 2025 Darkstar. All rights reserved.
+  </footer>
+</body>
+</html>
